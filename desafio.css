@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+header {
+    margin-left: 3rem;
+    padding-top: 2rem;
+    
+}
+
+.link-header {
+    font-size: 14px;
+    font-weight: 400;
+    color: #17233d;
+    margin-right: 32px;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    line-height: 21px;
+    text-align: center;
+    
+}
+
+button {
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-right: 32px;
+    background: #4CB538;
+    width: 124px;
+    height: 51px;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    line-height: 24px;
+}
+
+.logo-image {
+    margin-top: 163px;
+    margin-left: 123px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 84px;
+    width: 493px;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #161a49;
+    line-height: 82px;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #4b505a;
+    margin-top: 47px;
+    margin-bottom: 55px;
+    line-height: 33px;
+}
+
+.link-section {
+    font-size: 18px;
+    font-weight: 500;
+    color: #6fbf44;
+    cursor: pointer;
+    
+    line-height: 27px;
+}
+
+
+@media screen and (max-width: 600px) {
+    html, body {
+        overflow-x: hidden;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .wrapper {
+        min-height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* centraliza horizontalmente */
+        justify-content: flex-start;
+        text-align: center;
+        padding: 20px;
+    }
+
+    header {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        padding: 0 20px;
+        margin: 10px 0 0 0;
+    }
+
+    header a {
+        display: none;
+    }
+
+    button {
+        height: 32px;
+        width: 100px;
+        margin: 0;
+        cursor: pointer;
+    }
+
+    section {
+        width: 100%;
+        max-width: 320px;
+        margin-top: 60px;
+        margin: 60px 0 0 0;
+        order: 1;
+    }
+
+    h1 {
+        font-size: 30px;
+        line-height: 43px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 28px;
+        margin: 20px 0;
+        width: 100%;
+    }
+
+    .link-section {
+        font-size: 18px;
+        margin-bottom: 40px;
+        display: inline-block;
+        color: #6fbf44;
+    }
+
+    .logo-image {
+        display: block;
+        max-width: 90%;
+        height: auto;
+        margin: 0 auto 40px;
+        position: static;
+        order: 2;
+    }
+
+}
+
+    
