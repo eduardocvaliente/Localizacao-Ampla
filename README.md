@@ -8,4 +8,4 @@
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="logo-html" width="40px" />
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="logo-css" width="40px" />
 </p><br>
-<img src="https://github.com/eduardocvaliente/Localizacao-Ampla/blob/main/img/Design%20sem%20nome%20(5).png?raw=true">          
+ <img src="https://github.com/eduardocvaliente/Localizacao-Ampla/blob/main/img/mockup.png?raw=true" alt="mockup-image" height="750px"/>         
