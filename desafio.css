@@ -94,7 +94,7 @@ p {
         align-items: center; /* centraliza horizontalmente */
         justify-content: flex-start;
         text-align: center;
-        padding: 20px;
+        padding-top: 66px;
     }
 
     header {
@@ -111,7 +111,7 @@ p {
 
     button {
         height: 32px;
-        width: 100px;
+        width: 124px;
         margin: 0;
         cursor: pointer;
     }
@@ -125,7 +125,7 @@ p {
     }
 
     h1 {
-        font-size: 30px;
+        font-size: 35px;
         line-height: 43px;
         margin-bottom: 20px;
         width: 100%;
@@ -134,8 +134,9 @@ p {
     p {
         font-size: 18px;
         line-height: 28px;
-        margin: 20px 0;
+        margin: 55px 0;
         width: 100%;
+        text-align: justify;
     }
 
     .link-section {
